@@ -1,0 +1,21 @@
+Hajmasszázs;2500;00:20
+Fodrászati konzultáció;0;00:15
+Hajfestés;8000;01:30
+Hajvágás és szárítás;6000;00:45
+Manikűr;4000;00:45
+Pedikűr;4500;00:45
+Frizura kisimítás;3500;00:30
+Melírozás;10000;02:00
+Hajpakolás;3000;00:30
+Esküvői frizura;12000;01:30
+Gyermek hajvágás;3500;00:20
+Hajfonás;6000;01:00
+Hajdúsítás;7000;01:00
+Szakállvágás;2000;00:30
+Hajsimítás;5000;01:00
+Hullámosság;7000;01:30
+Körömlakk eltávolítás;1000;00:15
+Frizura tartósítás;4000;01:00
+Hajfestés újra;7000;01:30
+Frizura kiemelés;5500;01:15
+Hajvágás;4500;01:00

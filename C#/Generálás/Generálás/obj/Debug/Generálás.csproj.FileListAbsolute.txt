@@ -5,3 +5,10 @@ H:\IKT projektmunka\11. IKT\Adatbázisos projekt\C#\Generálás\Generálás\obj\
 H:\IKT projektmunka\11. IKT\Adatbázisos projekt\C#\Generálás\Generálás\obj\Debug\Generálás.csproj.CoreCompileInputs.cache
 H:\IKT projektmunka\11. IKT\Adatbázisos projekt\C#\Generálás\Generálás\obj\Debug\Generálás.exe
 H:\IKT projektmunka\11. IKT\Adatbázisos projekt\C#\Generálás\Generálás\obj\Debug\Generálás.pdb
+C:\Users\szabi\OneDrive\Asztali gép\projekt\C#\Generálás\Generálás\bin\Debug\Generálás.exe.config
+C:\Users\szabi\OneDrive\Asztali gép\projekt\C#\Generálás\Generálás\bin\Debug\Generálás.exe
+C:\Users\szabi\OneDrive\Asztali gép\projekt\C#\Generálás\Generálás\bin\Debug\Generálás.pdb
+C:\Users\szabi\OneDrive\Asztali gép\projekt\C#\Generálás\Generálás\obj\Debug\Generálás.csproj.AssemblyReference.cache
+C:\Users\szabi\OneDrive\Asztali gép\projekt\C#\Generálás\Generálás\obj\Debug\Generálás.csproj.CoreCompileInputs.cache
+C:\Users\szabi\OneDrive\Asztali gép\projekt\C#\Generálás\Generálás\obj\Debug\Generálás.exe
+C:\Users\szabi\OneDrive\Asztali gép\projekt\C#\Generálás\Generálás\obj\Debug\Generálás.pdb

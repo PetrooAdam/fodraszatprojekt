@@ -1,0 +1,100 @@
+1011;Széll Kálmán tér 5.
+1138;Váci út 178.
+1094;Ráday utca 11.
+1012;Krisztina körút 49.
+1066;Teréz körút 38.
+1074;Dohány utca 32.
+1089;Baross utca 8.
+1132;Visegrádi utca 4.
+1111;Bartók Béla út 23.
+1146;Állatkerti körút 12.
+1024;Retek utca 15.
+1051;Deák Ferenc tér 3.
+1103;Gyáli út 2.
+1042;Kőbányai út 45.
+1137;Pozsonyi út 25.
+1075;Kazinczy utca 10.
+1149;Thököly út 76.
+1082;Baross tér 7.
+1123;Alkotás utca 50.
+1033;Bécsi út 123.
+4025;Piac utca 33.
+4032;Nagyerdei körút 98.
+4028;Bajcsy-Zsilinszky utca 17.
+4031;Szent Anna utca 62.
+4026;Pallagi út 15.
+4027;Gáz utca 21.
+4030;Simonffy utca 8.
+4029;Tessedik Sámuel utca 47.
+4033;Kossuth utca 9.
+4041;Damjanich utca 3.
+4034;Böszörményi út 29.
+4024;Kálvin tér 11.
+4042;Jerikó utca 6.
+4011;Kassai út 41.
+4012;Ótemető utca 17.
+4010;Nyíl utca 28.
+4052;Komlóssy utca 4.
+4061;Egyetem sugárút 55.
+4062;Erzsébet utca 12.
+4051;Pesti út 37.
+6720;Tisza Lajos körút 48.
+6724;Széchenyi tér 12.
+6700;Aradi vértanúk tere 9.
+6722;Kálvária sugárút 33.
+6701;Gutenberg tér 6.
+6726;Alsóváros tér 21.
+6715;Csongrádi sugárút 17.
+6728;Klauzál tér 42.
+6710;Dugonics tér 29.
+6727;Szentháromság tér 8.
+6725;Kálvária sugárút 5.
+6708;Tábornok utca 13.
+6712;József Attila sugárút 7.
+6723;Mars tér 14.
+6716;Dorozsmai út 20.
+6702;Kígyó utca 25.
+6714;Hold utca 11.
+6717;Vitéz utca 4.
+6721;Gutenberg tér 3.
+6703;Munkácsy utca 38.
+1136;Hegedűs Gyula utca 13.
+1088;Baross utca 55.
+1107;Jászberényi út 29.
+1062;Szinyei Merse utca 8.
+1115;Budafoki út 7.
+1134;Váci út 92.
+1037;Bécsi út 193.
+1054;Károly körút 28.
+1097;Nagyvárad tér 10.
+1147;Népsziget utca 41.
+4035;Jerikó utca 15.
+6729;Széchenyi tér 33.
+6704;Aradi vértanúk tere 14.
+6723;Kálvária sugárút 72.
+6709;Gutenberg tér 18.
+6725;Alsóváros tér 34.
+6711;Csongrádi sugárút 29.
+6727;Klauzál tér 57.
+6710;Dugonics tér 18.
+6726;Szentháromság tér 22.
+6705;Kálvária sugárút 7.
+6722;Tábornok utca 25.
+6715;József Attila sugárút 11.
+6721;Mars tér 26.
+6707;Dorozsmai út 8.
+6713;Kígyó utca 47.
+6720;Hold utca 30.
+6716;Vitéz utca 17.
+6724;Gutenberg tér 44.
+6708;Munkácsy utca 62.
+2700;Kossuth Lajos utca 12.
+2700;Petőfi Sándor utca 24.
+2700;Ady Endre utca 6.
+2700;Szabadság tér 17.
+2700;Szent István út 33.
+2700;Bajcsy-Zsilinszky út 8.
+2700;Vasvári Pál utca 21.
+2700;Hunyadi utca 45.
+2700;Arany János utca 10.
+2700;Széchenyi utca 3.

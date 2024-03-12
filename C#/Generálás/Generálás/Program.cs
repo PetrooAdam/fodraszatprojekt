@@ -192,7 +192,6 @@ namespace Generálás
 
         private static void TelefonszamKigeneralas()
         {
-            StreamWriter f = new StreamWriter("valami.txt");
             while(telefonszamok.Count < 200)
             { 
                 string ujsz = r.Next(0, 3) == 1 ? "+36" : "06";
@@ -205,10 +204,8 @@ namespace Generálás
                 if (!VaneIlyen(ujsz))
                 {
                     telefonszamok.Add(ujsz);
-                    f.WriteLine(ujsz);
                 }
             }
-            f.Close();
         }
 
         private static bool VaneIlyen(string ujsz)

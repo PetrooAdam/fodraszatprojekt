@@ -35,7 +35,7 @@ namespace Generálás
 
         private static void SqlFajlKi()
         {
-            StreamWriter sql = new StreamWriter("fodraszat_adatok.sql");
+            StreamWriter sql = new StreamWriter("../../../../../adatbazis/fodraszat_adatok.sql");
             sql.WriteLine("use fodraszat_adatbazis;");
             sql.WriteLine();
             sql.WriteLine("insert into helyszin\nvalues");

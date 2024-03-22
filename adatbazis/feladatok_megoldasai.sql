@@ -7,7 +7,6 @@ use fodraszat_adatbazis;
 select * 
 from fodrasz;
 
-
 -- 2. feladat
 insert into fodrasz 
 values("+60 124 4522","Betyár Tamás","betyarvagyok@gmail.com");
@@ -43,6 +42,17 @@ where telefonszam like "0620%";
 
 
 
+--2. feladat
+
+select *,
+    case    
+        when ar = 0 then ""
+        when ar = 5000 then "EO kezelés"
+        when ar > 5000 then "összetett kezelés"
+        when ar < 5000 then "egyszerű kezelés"
+        else "?"
+    end as kezeles  
+from szolgaltatas;
 
 
 -- Nehez feladatok 
@@ -57,6 +67,6 @@ where fodrasz_telefonszam = "06701923124";
 -- 2. feladat
 select distinct t.nev
 from foglalas f inner join fodrasz t on f.fodrasz_telefonszam = t.telefonszam inner join vendeg v on f.vendeg_telefonszam = v.telefonszam
-where ROUND((LENGTH(v.nev) - LENGTH( REPLACE (v.nev, " ", "") )) / LENGTH(" ")) = 2
+where ROUND((length(v.nev) - length( REPLACE (v.nev, " ", "") )) / length(" ")) = 2
 order by t.nev ASC;
 

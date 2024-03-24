@@ -42,7 +42,7 @@ where telefonszam like "0620%";
 
 
 
---2. feladat
+-- 2. feladat
 
 select *,
     case    
@@ -53,6 +53,31 @@ select *,
         else "?"
     end as kezeles  
 from szolgaltatas;
+
+
+
+-- 3. feladat
+
+select szolgaltatas_nev as szolgaltatas, count(*) as DB
+from foglalas
+group by szolgaltatas_nev
+order by DB DESC
+limit 3;
+
+
+
+-- 4. feladat
+
+select u.uzletvezetp as Tulaj, COUNT(f.id) as FoglalasSzam
+from uzlet u
+left join foglalas f on u.id = f.uzlet_id
+group by u.uzletvezetp
+order by FoglalasSzam desc
+limit 1;
+
+
+
+
 
 
 -- Nehez feladatok 
@@ -70,3 +95,16 @@ from foglalas f inner join fodrasz t on f.fodrasz_telefonszam = t.telefonszam in
 where ROUND((length(v.nev) - length( REPLACE (v.nev, " ", "") )) / length(" ")) = 2
 order by t.nev ASC;
 
+
+-- 3. feladat
+select foglalas.*
+from foglalas
+join vendeg on foglalas.vendeg_telefonszam = vendeg.telefonszam
+join fodrasz on foglalas.fodrasz_telefonszam = fodrasz.telefonszam
+where (SUBSTRING(vendeg.telefonszam, 1, 3) = '+36' and SUBSTRING(fodrasz.telefonszam, 1, 3) = '+36' and SUBSTRING(vendeg.telefonszam, 4, 2) = SUBSTRING(fodrasz.telefonszam, 4, 2))
+    or
+    (SUBSTRING(vendeg.telefonszam, 1, 2) = '06' and SUBSTRING(fodrasz.telefonszam, 1, 2) = '06' and SUBSTRING(vendeg.telefonszam, 3, 2) = SUBSTRING(fodrasz.telefonszam, 3, 2))
+    or
+    (SUBSTRING(vendeg.telefonszam, 1, 3) = '+36' and SUBSTRING(fodrasz.telefonszam, 1, 2) = '06' and SUBSTRING(vendeg.telefonszam, 4, 2) = SUBSTRING(fodrasz.telefonszam, 3, 2))
+    or
+    (SUBSTRING(vendeg.telefonszam, 1, 2) = '06' and SUBSTRING(fodrasz.telefonszam, 1, 3) = '+36' and SUBSTRING(vendeg.telefonszam, 3, 2) = SUBSTRING(fodrasz.telefonszam, 4, 2));
